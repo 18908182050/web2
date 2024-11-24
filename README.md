@@ -15,7 +15,7 @@
 └── README.md
 
 - `app.py`: 应用的主入口文件。
-- `config.py`: 配置文件，包含应用的设置。
+- `config.py`: 配置sqllite数据库文件
 - `models.py`: 数据模型，定义数据库中的 User 模型。
 - `requirements.txt`: 项目所需的 Python 库。
 - `templates/`: 存放 HTML 模板的目录。

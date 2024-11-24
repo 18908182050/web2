@@ -38,7 +38,7 @@
             <p>Hello, {{ username }}!</p>
         {% endif %}
         {% if error %}
-            <p class="error.html">{{ error }}</p>
+            <p class="error">{{ error }}</p>  <!-- 修正了这里 -->
         {% endif %}
         <a href="{{ url_for('home.home') }}">Home</a>
     </div>

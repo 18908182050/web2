@@ -2,18 +2,6 @@
 
 这是一个简单的用户注册和登录系统，使用 Flask 框架构建。该项目允许用户注册新账户，并通过用户名和密码进行登录。
 
-## 项目结构
-├── .idea
-├── blueprints
-├── instance
-├── static
-├── templates
-├── app.py
-├── config.py
-├── models.py
-├── requirements.txt
-└── README.md
-
 - `app.py`: 应用的主入口文件。
 - `config.py`: 配置sqllite数据库文件
 - `models.py`: 数据模型，定义数据库中的 User 模型。
